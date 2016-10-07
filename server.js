@@ -5,6 +5,23 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+
+var articleOne = {
+    title: 'Article One | Dinakar R',
+    heading: 'Article One',
+    date: 'October 7, 2016',
+    content: `
+                <p>
+                    This is my first article. In this article I am planning to practice things learnt so far on IMAD-Hasura...even though i find the linkages from the server to be tenous and a bit confusing I hope things will become clearer as we go along..I am particularly concerned about how the page I am creating right now links to the server.
+                </p>
+                <p>
+                    This is my first article. In this article I am planning to practice things learnt so far on IMAD-Hasura...even though i find the linkages from the server to be tenous and a bit confusing I hope things will become clearer as we go along..I am particularly concerned about how the page I am creating right now links to the server.
+                </p>
+                <p>
+                    This is my first article. In this article I am planning to practice things learnt so far on IMAD-Hasura...even though i find the linkages from the server to be tenous and a bit confusing I hope things will become clearer as we go along..I am particularly concerned about how the page I am creating right now links to the server.
+                </p>'
+    
+};
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
