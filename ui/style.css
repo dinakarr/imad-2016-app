@@ -2,14 +2,9 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
+
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    color: grey;
-    font-family: sans-serif;
-}
 
 .center {
     text-align: center;
@@ -27,3 +22,10 @@ body {
     height: 200px;
 }
 
+    
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: grey;
+    
+    }
